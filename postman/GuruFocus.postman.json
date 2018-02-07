@@ -1,0 +1,846 @@
+{
+	"info": {
+		"name": "GuruFocus",
+		"_postman_id": "2686e132-df9a-8956-df01-2ad02608f012",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "News",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://www.gurufocus.com/api/public/news/editor/0",
+					"protocol": "https",
+					"host": [
+						"www",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"api",
+						"public",
+						"news",
+						"editor",
+						"0"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Insider",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://www.gurufocus.com/api/public/news/editor/0",
+					"protocol": "https",
+					"host": [
+						"www",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"api",
+						"public",
+						"news",
+						"editor",
+						"0"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "builtinToken",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://www.gurufocus.com/api/public/portfolio_details",
+					"protocol": "https",
+					"host": [
+						"www",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"api",
+						"public",
+						"portfolio_details"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Company Financial data",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.gurufocus.com/public/user/{{API_KEY}}/stock/{{SYMBOL}}/financials",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"public",
+						"user",
+						"{{API_KEY}}",
+						"stock",
+						"{{SYMBOL}}",
+						"financials"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Company key statistics data",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.gurufocus.com/public/user/{{API_KEY}}/stock/aapl/financials",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"public",
+						"user",
+						"{{API_KEY}}",
+						"stock",
+						"aapl",
+						"financials"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Stock quote data",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.gurufocus.com/public/user/{{API_KEY}}/stock/AAPL/quote",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"public",
+						"user",
+						"{{API_KEY}}",
+						"stock",
+						"AAPL",
+						"quote"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Stock Historical Price/Unadjusted Price data",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.gurufocus.com/public/user/{{API_KEY}}/stock/{{SYMBOL}}/price",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"public",
+						"user",
+						"{{API_KEY}}",
+						"stock",
+						"{{SYMBOL}}",
+						"price"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Stock Summary Data",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.gurufocus.com/public/user/{{API_KEY}}/stock/{{SYMBOL}}/summary",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"public",
+						"user",
+						"{{API_KEY}}",
+						"stock",
+						"{{SYMBOL}}",
+						"summary"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Real-time Guru Trades of Specific Companies",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.gurufocus.com/public/user/{{API_KEY}}/stock/{{SYMBOL}}/gurus",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"public",
+						"user",
+						"{{API_KEY}}",
+						"stock",
+						"{{SYMBOL}}",
+						"gurus"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Real-Time Insider Trades of Specific Companies",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.gurufocus.com/public/user/{{API_KEY}}/stock/{{SYMBOL}}/insider",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"public",
+						"user",
+						"{{API_KEY}}",
+						"stock",
+						"{{SYMBOL}}",
+						"insider"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Guru Stock Picks",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.gurufocus.com/public/user/{{API_KEY}}/guru/7/picks/2018-02-06",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"public",
+						"user",
+						"{{API_KEY}}",
+						"guru",
+						"7",
+						"picks",
+						"2018-02-06"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Dividend History",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.gurufocus.com/public/user/{{API_KEY}}/stock/{{SYMBOL}}/dividend",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"public",
+						"user",
+						"{{API_KEY}}",
+						"stock",
+						"{{SYMBOL}}",
+						"dividend"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Latest Insider Trades",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.gurufocus.com/public/user/{{API_KEY}}/insider_updates",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"public",
+						"user",
+						"{{API_KEY}}",
+						"insider_updates"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Stock List in Exchange",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.gurufocus.com/public/user/{{API_KEY}}/exchange_stocks/exchange_name",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"public",
+						"user",
+						"{{API_KEY}}",
+						"exchange_stocks",
+						"exchange_name"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Guru Aggregated Portfolio",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.gurufocus.com/public/user/{{API_KEY}}/guru/7/aggregated",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"public",
+						"user",
+						"{{API_KEY}}",
+						"guru",
+						"7",
+						"aggregated"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Exchange list",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.gurufocus.com/public/user/{{API_KEY}}/exchange_list",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"public",
+						"user",
+						"{{API_KEY}}",
+						"exchange_list"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Search Symbol",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://www.gurufocus.com/api/public/search_company/{{SYMBOL}}",
+					"protocol": "https",
+					"host": [
+						"www",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"api",
+						"public",
+						"search_company",
+						"{{SYMBOL}}"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Portfolio Detail",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://www.gurufocus.com/api/public/portfolio_details",
+					"protocol": "https",
+					"host": [
+						"www",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"api",
+						"public",
+						"portfolio_details"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Portfolio News",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://www.gurufocus.com/api/public/portfolio/news/91517",
+					"protocol": "https",
+					"host": [
+						"www",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"api",
+						"public",
+						"portfolio",
+						"news",
+						"91517"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Login (Not Working Yet)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "login_username",
+							"value": "{{GURU_USERNAME}}",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "login_password",
+							"value": "{{GURU_PASSWORD}}",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.gurufocus.com/api/public/user_login",
+					"protocol": "https",
+					"host": [
+						"www",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"api",
+						"public",
+						"user_login"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Guru List",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "deviceId",
+						"value": "android"
+					},
+					{
+						"key": "From",
+						"value": "app"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{API_KEY}}"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.gurufocus.com/public/user/{{API_KEY}}/gurulist",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gurufocus",
+						"com"
+					],
+					"path": [
+						"public",
+						"user",
+						"{{API_KEY}}",
+						"gurulist"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
